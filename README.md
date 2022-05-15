@@ -2,6 +2,7 @@
 Bean Machine Job for gabz bean machine map for QBCore.
 
 # Preview
+https://www.youtube.com/watch?v=Nur_2EWdXXs
 
 # Add to qb-core/shared/items.lua
 ```
@@ -57,9 +58,12 @@ Bean Machine Job for gabz bean machine map for QBCore.
 	},
 ```
 
+# Drag and drop images from mt-beanmachine/images to qb-inventory/html/images
+
 # Dependicies
 - qb-target - https://github.com/qbcore-framework/qb-target
 - qb-menu - https://github.com/qbcore-framework/qb-menu
 - qb-input - https://github.com/qbcore-framework/qb-input
 - dpemotes - https://github.com/qbcore-framework/dpemotes
 - qb-core - https://github.com/qbcore-framework/qb-core
+- qb-inventory - https://github.com/qbcore-framework/qb-inventory
