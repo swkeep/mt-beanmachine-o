@@ -67,6 +67,7 @@ https://www.youtube.com/watch?v=Nur_2EWdXXs
 - dpemotes - https://github.com/qbcore-framework/dpemotes
 - qb-core - https://github.com/qbcore-framework/qb-core
 - qb-inventory - https://github.com/qbcore-framework/qb-inventory
+- qb-phone - https://github.com/qbcore-framework/qb-phone
 
 # Gabz bean machine map link
 https://fivem.gabzv.com/package/4976870
