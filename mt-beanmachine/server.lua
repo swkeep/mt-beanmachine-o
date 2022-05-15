@@ -172,3 +172,13 @@ RegisterServerEvent("mt-beanmachine:server:FaturarPlayer", function(playerId, am
             TriggerClientEvent('QBCore:Notify', source, 'No access', 'error')
         end
 end)
+
+---------------------------------------------
+---------- Tirar dinheiro -------------------
+
+RegisterNetEvent('mt-beanmachine:server:Tirar10dolars', functions()
+   local src = source
+   local Player = QBCore.Functions.GetPlayer(src)
+	
+   Player.Functions.RemoveMoney('bank', 10)
+end)
