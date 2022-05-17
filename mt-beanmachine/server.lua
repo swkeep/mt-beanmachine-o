@@ -176,7 +176,7 @@ end)
 ---------------------------------------------
 ---------- Tirar dinheiro -------------------
 
-RegisterNetEvent('mt-beanmachine:server:Tirar10dolars', functions()
+RegisterNetEvent('mt-beanmachine:server:Tirar10dolars', function()
    local src = source
    local Player = QBCore.Functions.GetPlayer(src)
 	
