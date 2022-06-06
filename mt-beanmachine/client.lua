@@ -18,12 +18,6 @@ RegisterNetEvent('QBCore:Client:OnJobUpdate', function(JobInfo)
     onDuty = PlayerJob.onduty
 end)
 
-RegisterNetEvent('QBCore:Client:SetDuty', function(duty)
-    if PlayerData.job.name == 'bean' then
-    	onDuty = duty
-    end
-end)
-
 RegisterNetEvent("mt-beanmachine:client:Servico", function()
     TriggerServerEvent("QBCore:ToggleDuty")
 end)
@@ -515,7 +509,7 @@ end)
 ------------ Blip no mapa ----------------------
 
 Citizen.CreateThread(function()
-    bean = Config.MapLoc
+    bean = AddBlipForCoord(122.81, -1038.82, 29.28)
     SetBlipSprite (bean, 106)
     SetBlipDisplay(bean, 2)
     SetBlipScale  (bean, 0.9)
